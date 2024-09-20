@@ -1,7 +1,14 @@
 # SQA Data Extractor
-This is a simple program that takes one CSV of data and turns it into a formatted one for SQA SOLAR upload. 
-
-Provide the data in any format, provided the forename is first and the surname is second, e.g.:
+<p>
+  This simple program takes one CSV of data and turns it into a formatted one for SQA SOLAR upload. 
+</p>
+<p>
+  Sometimes, the data you get from SEEMIS has too much or too little. Sometimes, you need to reduce or filter the results 
+  of a custom report to affect just one group of pupils. This program can seriously help with this.
+</p>
+<p>
+  To use it, provide the data in any format, provided the forename is first and the surname is second, e.g:
+</p>
 <table>
   <tr>
     <td>
@@ -22,7 +29,9 @@ Provide the data in any format, provided the forename is first and the surname i
   </tr>
 </table>
 
-And provide the titles in the original CSV in the first row. Once you've done that, you'll need to provide a second CSV file which contains the list of forenames and surnames of the pupils you want the information for:
+> [!NOTE]
+> Ensure you provide the original CSV titles in the first row. Once you've done that, you'll need to provide a second CSV file which contains the list of forenames and surnames of the pupils you want the information for in the following format:
+
 
 <table>
   <tr>
